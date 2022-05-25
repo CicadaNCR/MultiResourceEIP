@@ -511,9 +511,4 @@ contract MultiResourceToken is Context, IMultiResource {
       return _tokenEnumeratedResource[_resourceId];
   }
 
-  // External Mint
-  function mint(address to, uint256 tokenId) external {
-        _mint(to, tokenId);
-    }
-
 }
